@@ -1,0 +1,48 @@
+﻿@page
+@model TrabTerceiroRazor.Pages.Vendas.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="IncluirAlterar">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ListaVenda[0].VenData)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ListaVenda[0].VenFechada)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ListaVenda[0].IdCliNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.ListaVenda) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.VenData)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VenFechada)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdCliNavigation.CliNome)
+            </td>
+            <td>
+                <a asp-page="./IncluirAlterar" asp-route-id="@item.VenId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.VenId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.VenId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

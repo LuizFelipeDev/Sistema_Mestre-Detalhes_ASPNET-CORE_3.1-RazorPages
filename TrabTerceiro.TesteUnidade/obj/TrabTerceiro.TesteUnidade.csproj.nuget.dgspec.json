@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\luizf\\source\\repos\\TrabTerceiro\\TrabTerceiro.TesteUnidade\\TrabTerceiro.TesteUnidade.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\luizf\\source\\repos\\TrabTerceiro\\TrabTerceiro.Data\\TrabTerceiro.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\luizf\\source\\repos\\TrabTerceiro\\TrabTerceiro.Data\\TrabTerceiro.Data.csproj",
+        "projectName": "TrabTerceiro.Data",
+        "projectPath": "C:\\Users\\luizf\\source\\repos\\TrabTerceiro\\TrabTerceiro.Data\\TrabTerceiro.Data.csproj",
+        "packagesPath": "C:\\Users\\luizf\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\luizf\\source\\repos\\TrabTerceiro\\TrabTerceiro.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\luizf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\luizf\\source\\repos\\TrabTerceiro\\TrabTerceiro.TesteUnidade\\TrabTerceiro.TesteUnidade.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\luizf\\source\\repos\\TrabTerceiro\\TrabTerceiro.TesteUnidade\\TrabTerceiro.TesteUnidade.csproj",
+        "projectName": "TrabTerceiro.TesteUnidade",
+        "projectPath": "C:\\Users\\luizf\\source\\repos\\TrabTerceiro\\TrabTerceiro.TesteUnidade\\TrabTerceiro.TesteUnidade.csproj",
+        "packagesPath": "C:\\Users\\luizf\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\luizf\\source\\repos\\TrabTerceiro\\TrabTerceiro.TesteUnidade\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\luizf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\luizf\\source\\repos\\TrabTerceiro\\TrabTerceiro.Data\\TrabTerceiro.Data.csproj": {
+                "projectPath": "C:\\Users\\luizf\\source\\repos\\TrabTerceiro\\TrabTerceiro.Data\\TrabTerceiro.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.4.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.15.1, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

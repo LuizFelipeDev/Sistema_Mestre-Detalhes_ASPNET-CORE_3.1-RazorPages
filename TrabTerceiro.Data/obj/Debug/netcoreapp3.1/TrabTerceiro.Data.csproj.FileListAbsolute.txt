@@ -1,0 +1,12 @@
+C:\Users\luizf\source\repos\TrabTerceiro\TrabTerceiro.Data\bin\Debug\netcoreapp3.1\TrabTerceiro.Data.deps.json
+C:\Users\luizf\source\repos\TrabTerceiro\TrabTerceiro.Data\bin\Debug\netcoreapp3.1\TrabTerceiro.Data.dll
+C:\Users\luizf\source\repos\TrabTerceiro\TrabTerceiro.Data\obj\Debug\netcoreapp3.1\TrabTerceiro.Data.csprojAssemblyReference.cache
+C:\Users\luizf\source\repos\TrabTerceiro\TrabTerceiro.Data\obj\Debug\netcoreapp3.1\TrabTerceiro.Data.AssemblyInfoInputs.cache
+C:\Users\luizf\source\repos\TrabTerceiro\TrabTerceiro.Data\obj\Debug\netcoreapp3.1\TrabTerceiro.Data.AssemblyInfo.cs
+C:\Users\luizf\source\repos\TrabTerceiro\TrabTerceiro.Data\bin\Debug\netcoreapp3.1\TrabTerceiro.Data.runtimeconfig.json
+C:\Users\luizf\source\repos\TrabTerceiro\TrabTerceiro.Data\bin\Debug\netcoreapp3.1\TrabTerceiro.Data.runtimeconfig.dev.json
+C:\Users\luizf\source\repos\TrabTerceiro\TrabTerceiro.Data\obj\Debug\netcoreapp3.1\TrabTerceiro.Data.genruntimeconfig.cache
+C:\Users\luizf\source\repos\TrabTerceiro\TrabTerceiro.Data\bin\Debug\netcoreapp3.1\TrabTerceiro.Data.pdb
+C:\Users\luizf\source\repos\TrabTerceiro\TrabTerceiro.Data\obj\Debug\netcoreapp3.1\TrabTerceiro.Data.csproj.CoreCompileInputs.cache
+C:\Users\luizf\source\repos\TrabTerceiro\TrabTerceiro.Data\obj\Debug\netcoreapp3.1\TrabTerceiro.Data.dll
+C:\Users\luizf\source\repos\TrabTerceiro\TrabTerceiro.Data\obj\Debug\netcoreapp3.1\TrabTerceiro.Data.pdb

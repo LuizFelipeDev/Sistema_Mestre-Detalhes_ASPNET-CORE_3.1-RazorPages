@@ -1,0 +1,48 @@
+﻿@page
+@model TrabTerceiroRazor.Pages.Clientes.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Cliente[0].CliNome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cliente[0].CliEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cliente[0].CliCpf)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Cliente) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CliNome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CliEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CliCpf)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.CliId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.CliId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.CliId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
